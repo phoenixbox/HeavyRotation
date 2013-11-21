@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB99E68C183DCF3D00EAA0A3 /* HeavyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB99E68A183DCF3D00EAA0A3 /* HeavyViewController.m */; };
+		CB99E68D183DCF3D00EAA0A3 /* HeavyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99E68B183DCF3D00EAA0A3 /* HeavyViewController.xib */; };
+		CB99E68F183DD02700EAA0A3 /* antibacterial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB99E68E183DD02700EAA0A3 /* antibacterial.jpg */; };
 		CBBF3462183D50890033A562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBF3461183D50890033A562 /* Foundation.framework */; };
 		CBBF3464183D50890033A562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBF3463183D50890033A562 /* CoreGraphics.framework */; };
 		CBBF3466183D50890033A562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBF3465183D50890033A562 /* UIKit.framework */; };
@@ -32,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB99E689183DCF3D00EAA0A3 /* HeavyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyViewController.h; sourceTree = "<group>"; };
+		CB99E68A183DCF3D00EAA0A3 /* HeavyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyViewController.m; sourceTree = "<group>"; };
+		CB99E68B183DCF3D00EAA0A3 /* HeavyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeavyViewController.xib; sourceTree = "<group>"; };
+		CB99E68E183DD02700EAA0A3 /* antibacterial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antibacterial.jpg; sourceTree = "<group>"; };
 		CBBF345E183D50890033A562 /* HeavyRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeavyRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBF3461183D50890033A562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBBF3463183D50890033A562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,8 +114,12 @@
 		CBBF3467183D50890033A562 /* HeavyRotation */ = {
 			isa = PBXGroup;
 			children = (
+				CB99E68E183DD02700EAA0A3 /* antibacterial.jpg */,
 				CBBF3470183D50890033A562 /* RotationAppDelegate.h */,
 				CBBF3471183D50890033A562 /* RotationAppDelegate.m */,
+				CB99E689183DCF3D00EAA0A3 /* HeavyViewController.h */,
+				CB99E68A183DCF3D00EAA0A3 /* HeavyViewController.m */,
+				CB99E68B183DCF3D00EAA0A3 /* HeavyViewController.xib */,
 				CBBF3473183D50890033A562 /* Images.xcassets */,
 				CBBF3468183D50890033A562 /* Supporting Files */,
 			);
@@ -221,7 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBF346C183D50890033A562 /* InfoPlist.strings in Resources */,
+				CB99E68D183DCF3D00EAA0A3 /* HeavyViewController.xib in Resources */,
 				CBBF3474183D50890033A562 /* Images.xcassets in Resources */,
+				CB99E68F183DD02700EAA0A3 /* antibacterial.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB99E68C183DCF3D00EAA0A3 /* HeavyViewController.m in Sources */,
 				CBBF3472183D50890033A562 /* RotationAppDelegate.m in Sources */,
 				CBBF346E183D50890033A562 /* main.m in Sources */,
 			);
@@ -442,6 +456,7 @@
 				CBBF348C183D50890033A562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBBF348D183D50890033A562 /* Build configuration list for PBXNativeTarget "HeavyRotationTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +465,7 @@
 				CBBF348F183D50890033A562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

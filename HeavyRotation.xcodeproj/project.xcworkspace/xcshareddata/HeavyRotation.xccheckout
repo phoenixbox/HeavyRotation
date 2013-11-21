@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F5AE0F09-0C01-440C-9B97-4BC718D78384</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HeavyRotation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>526B4801-0E37-49ED-B00E-3B3B6F337B3B</key>
+		<string>ssh://github.com/phoenixbox/HeavyRotation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HeavyRotation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>526B4801-0E37-49ED-B00E-3B3B6F337B3B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/phoenixbox/HeavyRotation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>526B4801-0E37-49ED-B00E-3B3B6F337B3B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>526B4801-0E37-49ED-B00E-3B3B6F337B3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeavyRotation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

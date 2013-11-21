@@ -14,9 +14,26 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    UIDevice *device = [UIDevice currentDevice];
+    
+    [device beginGeneratingDeviceOrientationNotifications];
+    
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+    
+    [nc addObserver:self
+           selector:@selector(orientationChanged:)
+               name:UIDeviceOrientationDidChangeNotification
+             object:device];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)orientationChanged:(NSNotification *)note
+{
+    NSLog(@"OrientationChanged: %d", [[note object] orientation]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
